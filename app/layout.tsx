@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={"custom-scrollbar mx-auto min-w-[320px] w-11/12 min-h-screen bg-[#E9E9E9] text-[#222222] transition-all duration-500 " + inter.className}>
+      <body className={"custom-scrollbar mx-auto p-4 min-w-[320px] max-w-7xl w-full min-h-screen bg-[#E9E9E9] text-[#222222] transition-all duration-500 " + inter.className}>
         {children}
       </body>
     </html>
