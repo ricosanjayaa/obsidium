@@ -21,9 +21,11 @@ export default function Sidebar() {
           <div className="flex-grow">
             <div className="flex flex-col group">
               {links.map((link) => (
-                <Link href={link.target}><p className="py-2 text-5xl group-hover:opacity-50 hover:!opacity-100 hover:translate-x-4 transition-all duration-500" key={link.label}>
-                  {link.label}
-                </p></Link>
+                <Link href={link.target} key={link.label}>
+                  <p className="py-2 text-5xl group-hover:opacity-50 hover:!opacity-100 hover:translate-x-4 transition-all duration-500" key={link.label}>
+                    {link.label}
+                  </p>
+                </Link>
               ))}
             </div>
           </div>
