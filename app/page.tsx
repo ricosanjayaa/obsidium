@@ -3,8 +3,50 @@ import ThemeToggler from "@/components/ThemeToggler";
 export default function Page() {
   return (
     <div>
-      <ThemeToggler />
-      hello world!
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!</p>
+      <p>hello world!v</p>
     </div>
   )
 }
