@@ -12,11 +12,11 @@ export default function ThemeToggler() {
 
   return (
     theme === "light" ? (
-      <div className="w-8 h-8 bg-[#222222] bg-opacity-10 flex items-center justify-center rounded-md cursor-pointer active:translate-y-0.5 transition-all duration-500" onClick={toggleTheme}>
+      <div className="w-8 h-8 bg-[#222222] bg-opacity-10 flex items-center justify-center rounded-md cursor-pointer active:translate-y-1 transition-all duration-500" onClick={toggleTheme}>
         <Moon size={18} weight="fill" className="text-[#222222]" />
       </div>
     ) : (
-      <div className="w-8 h-8 bg-[#E9E9E9] bg-opacity-10 flex items-center justify-center rounded-md cursor-pointer active:translate-y-0.5 transition-all duration-500" onClick={toggleTheme}>
+      <div className="w-8 h-8 bg-[#E9E9E9] bg-opacity-10 flex items-center justify-center rounded-md cursor-pointer active:translate-y-1 transition-all duration-500" onClick={toggleTheme}>
         <Sun size={18} weight="fill" className="text-[#E9E9E9]" />
       </div>
     )
